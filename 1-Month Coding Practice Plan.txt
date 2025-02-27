@@ -1,0 +1,136 @@
+1-Month Coding Practice Plan
+Week 1: Fundamental Recall & Daily Coding
+
+    Day 1-2: Data Structures (Arrays, Lists, Dictionaries, Queues, Stacks)
+    Day 3-4: Object-Oriented Programming (OOP) - Classes, Inheritance, Polymorphism
+    Day 5-6: Common C# Algorithms (Sorting, Searching, String Manipulation)
+    Day 7: Mini Project - Build a small console app (e.g., a To-Do list)
+
+Week 2: ASP.NET MVC & Backend Logic
+
+    Day 8-9: MVC Basics (Controllers, Models, Views, Routing)
+    Day 10-11: Entity Framework & LINQ (CRUD without referencing documentation)
+    Day 12-13: Authentication & Middleware (JWT, Session, Cookies)
+    Day 14: Build a Simple CRUD Web App without reference
+
+Week 3: Problem-Solving & Algorithms
+
+    Day 15-16: LeetCode Easy & Medium Problems (Focus on C# solutions)
+    Day 17-18: System Design Basics (Explain how you’d build an app)
+    Day 19-20: Debugging & Optimizing Code
+    Day 21: Take a full-length mock coding test (No internet)
+
+Week 4: Simulating Interview Scenarios
+
+    Day 22-23: Whiteboard-style coding (Solve problems on paper first)
+    Day 24-25: Build a small project under a time limit
+    Day 26-27: Mock Interviews (Time-bound coding challenges)
+    Day 28-30: Revise, identify weak points, and retake mock assessments
+
+Guidelines to Follow
+
+    Write code daily without looking up solutions
+    Use paper first, then implement in Visual Studio
+    Use LeetCode, CodeSignal, and C# console apps for testing
+    Mimic real interviews by solving problems under timed conditions
+
+
+
+Day 1-2: Data Structures in C#
+
+📌 Goal: Implement fundamental data structures from scratch.
+
+✅ Tasks:
+
+    Arrays
+        Create a program that finds the second largest number in an array.
+        Implement a function that removes duplicates from an array.
+        Reverse an array without using built-in functions.
+
+    Lists
+        Create a custom LinkedList class with methods: Add, Remove, Find.
+        Implement a method that removes even numbers from a List<int>.
+
+    Dictionaries
+        Implement a frequency counter: Count occurrences of words in a string.
+        Create a simple caching system using Dictionary<int, string>.
+
+    Stacks & Queues
+        Implement a stack using an array.
+        Implement a queue using a linked list.
+        Implement a balanced parentheses checker using a stack.
+
+Day 3-4: Object-Oriented Programming (OOP)
+
+📌 Goal: Implement key OOP principles (Encapsulation, Inheritance, Polymorphism, Abstraction).
+
+✅ Tasks:
+
+    Class & Object Basics
+        Create a Car class with properties (Brand, Model, Speed) and methods (Accelerate(), Brake()).
+        Write a BankAccount class with deposit, withdraw, and balance check methods.
+
+    Encapsulation & Inheritance
+        Modify the BankAccount class to include a derived class SavingsAccount with interest rate calculation.
+
+    Polymorphism
+        Create an interface IShape with a method GetArea(). Implement Circle, Rectangle, and Triangle classes.
+
+    Abstract Classes & Method Overriding
+        Create an abstract class Animal with an abstract method MakeSound(). Implement Dog and Cat classes.
+
+Day 5-6: Common C# Algorithms
+
+📌 Goal: Implement algorithms without using built-in methods.
+
+✅ Tasks:
+
+    Sorting Algorithms
+        Implement Bubble Sort, Selection Sort, and Quick Sort.
+        Sort a list of Employee objects based on salary.
+
+    Searching Algorithms
+        Implement Binary Search (Iterative & Recursive).
+        Implement a simple hash function for storing values.
+
+    String Manipulation
+        Reverse a string without using built-in methods.
+        Check if a string is a palindrome.
+        Find the most frequent character in a string.
+
+Day 7: Mini Project - Console-Based To-Do List App
+
+📌 Goal: Combine the week’s learning into a small project.
+
+✅ Tasks:
+
+    Create a To-Do List Console App with the following features:
+        Add a new task.
+        Remove a task.
+        Mark a task as completed.
+        List all tasks with their status.
+
+🚀 Bonus Challenge:
+
+    Save tasks in a text file and load them when the program starts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
