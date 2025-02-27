@@ -27,9 +27,10 @@ namespace DataStructures
             foreach (var dic in freChar)
             {
                 if (dic.Value == 1)
+                {
                     result = dic.Key;
-
-                break;
+                    break;
+                }              
             }
 
             return result;

@@ -32,24 +32,25 @@ namespace DataStructures
             //Console.WriteLine(string.Join(",", p1.ReverseArray(input4)));
 
             // Usage:
-            LinkedList list = new LinkedList();
-            list.Add(10);
-            list.Add(20);
-            list.Add(30);
-            list.Add(40);
+            //LinkedList list = new LinkedList();
+            //list.Add(10);
+            //list.Add(20);
+            //list.Add(30);
+            //list.Add(40);
 
-            list.Remove(30);
-            list.Print(); // Output: 10 -> 20 -> 30 -> null
+            //list.Remove(30);
+            //list.Print(); // Output: 10 -> 20 -> 30 -> null
+            //Node node = list.Find(30);
+            //Console.WriteLine(node == null ? "Not Found" : "Found");
 
-            Node node = list.Find(30);
+            //List<int> inputs = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+            //Lists lists = new Lists();
+            //Console.WriteLine(string.Join("", lists.RemoveAllEventNumber(inputs)));
 
-            Console.WriteLine(node == null ? "Not Found" : "Found");
+            var inputString = "swiss";
+            Dictionary dic = new Dictionary();
 
-            List<int> inputs = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
-
-            Lists lists = new Lists();
-
-            Console.WriteLine(string.Join("", lists.RemoveAllEventNumber(inputs)));
+            Console.WriteLine(dic.FindFistNonRepeatedChar(inputString) == '-' ? "Not found not repeated first character" : $"found not repeated first character : {dic.FindFistNonRepeatedChar(inputString)}");
         }
     }
 }
