@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace DataStructures
 
@@ -42,6 +44,12 @@ namespace DataStructures
             Node node = list.Find(30);
 
             Console.WriteLine(node == null ? "Not Found" : "Found");
+
+            List<int> inputs = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+
+            Lists lists = new Lists();
+
+            Console.WriteLine(string.Join("", lists.RemoveAllEventNumber(inputs)));
         }
     }
 }
